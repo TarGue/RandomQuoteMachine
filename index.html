@@ -5,32 +5,39 @@
   <title>Random Quote Machine</title>
   <link href="style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script language="javascript" type="text/javascript" src="script.js"></script>
 </head>
 <header>
 <h1>Random Quote Machine</h1>
 </header>
 <body>
-<div class = "quoteBox">
+<div class="content row">
+<div class="col-3"></div>
+
+
+
+<div class = "quoteBox col-5">
 <!--Button-->
 
   <div class="dropdown">
     <button  class="dropbtn"><img src="img\ic_share_black_24px.svg"></button>
     <div class="dropdown-content">
-      <a id="tweetMessage"><img src="img\twitter.svg">tweet</a>
+      <a id="tweetMessage"><img src="img\twitter.svg"> tweet</a>
     </div>
   </div>
 <!--Message-->
 <div class="well message" id="quote"> </div>
+</div>
 
-
-<button id = "getMessage" class = "button">Generate Quote
+<div class="colr-3"></div>
+<div class="col-5"></div>
+<button id = "getMessage" class = "button col-2">Generate Quote
 </button>
-
-
+<div class="colr-5"></div>
+</div>
 </body>
 <footer><h2>Created by <a href="https://targue.github.io/PortfolioPage/"target="_blank">Tar Gue</a> <br>look at the Source-Code on GitHub<a  class="image"href="https://github.com/TarGue/RandomQuoteMachine"target="_blank"><img src="img\github.svg"></a></h2>
-<br><p>A project challenge at FreeCodeCamp</p></footer>
+<br>A project challenge at FreeCodeCamp</footer>
 
 </html>
