@@ -1,66 +1,41 @@
 body{
   background: #FAAC58;
-
   font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h1{
   text-align: center;
 }
 h3{
-  text-align: center;
   font-size: 1em;
-
 }
 small{
   color: grey;
 }
-
-footer{
-  position:relative;
-  margin:   0 40% 0 ;
-  text-align: center;
-  bottom: 0;
- }
-
-
 /*textbox*/
-.quoteBox{
- position: relative;
-  float:left;
-  width:30em;
-  height:auto;
-  padding: 0.5em 1em;
-  margin: 10% 33.6% 0%;;
+.flex-quoteBox{
+  position: relative;
+  margin:10px auto;
+  max-width: 800px ;
+  min-height: 50px ;
+  padding:  1em;
   background-color: #fff;
   transition: box-shadow .25s;
   border-radius: 1.5px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
  }
-
-
-
-.title{
-text-align: center;
-}
 /*button*/
 .button {
     position: relative;
     background-color: #00bfff;
-	width:8em;
     border:none;
-    border-radius: 10px;
+    border-radius: 25px;
     color: black;
     padding: 0.5em 1em;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     display: inline-block;
     font-size: 1em;
-    margin: 1% 46% 0%;
     cursor:pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-
 }
 
 .button:hover{
@@ -69,7 +44,6 @@ text-align: center;
     color: white;
 }
 /* menu*/
-
 .dropbtn {
     background-color: #00bfff;
     color: white;
@@ -82,6 +56,7 @@ text-align: center;
 
 .dropdown {
     position: relative;
+    float:left;
     display: inline-block;
 }
 
@@ -105,10 +80,7 @@ text-align: center;
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .dropdown:hover .dropbtn {
-    /*background-color: #3e8e41;*/
-
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     background-color:	#1c86ee;
     color:white;
@@ -117,46 +89,5 @@ text-align: center;
 .image:hover{
   border-radius: 50%;
   box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24),0 17px 17px 0 rgba(0,0,0,0.19);
-  /*background-color:	#1c86ee;*/
   color:white;
 }
-/*grid
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-[class*="col-"] {
-    float: left;
-    padding: 1em;
-
-}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 40.00%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-[class*="colr-"] {
-    float: right;
-    padding: 1em;
-
-}
-.colr-1 {width: 8.33%;}
-.colr-2 {width: 16.66%;}
-.colr-3 {width: 25%;}
-.colr-4 {width: 33.33%;}
-.colr-5 {width: 41.66%;}
-.colr-6 {width: 50%;}
-.colr-7 {width: 58.33%;}
-.colr-8 {width: 66.66%;}
-.colr-9 {width: 75%;}
-.colr-10 {width: 83.33%;}
-.colr-11 {width: 91.66%;}
-.colr-12 {width: 100%;}*/
