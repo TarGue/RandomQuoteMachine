@@ -1,4 +1,5 @@
 var quote = new Array()
+    // Add the Quotes to an Array dependent on the Random Number which is choosen
     quote[0] = '<h3>&quot;I think that\'s the single best piece of advice: constantly think about how you could be doing things better and questioning yourself.&quot;<br /><small>-Elon Musk</small></h3>'
     quote[1] = '<h3>&quot;I came to Berlin not to visit its museums and galleries, its operas, its theaters... but for the sake of seeing and speaking with the world\'s greatest living man. &quot;<br /><small>-Alexander von Humboldt</small></h3>'
     quote[2] = '<h3>&quot;Our prime purpose in this life is to help others. And if you can\'t help them, at least don\'t hurt them.&quot;<br /><small>-Dalai Lama</small></h3>'
@@ -9,7 +10,8 @@ var quote = new Array()
     quote[7] = '<h3>&quot;The biggest risk is not taking any risk... In a world that changing really quickly, the only strategy that is guaranteed to fail is not taking risks.&quot;<br /><small>-Mark Zuckerberg</small></h3>'
     quote[8] = '<h3>&quot;The only source of knowledge is experience.&quot;<br /><small>-Albert Einstein</small></h3>'
 
-	function tweet(message) {
+// Share the Message 
+function tweet(message) {
   window.open('https://twitter.com/intent/tweet?hashtags= freecodecamp&text='   + encodeURIComponent(message));
 }
 
@@ -19,6 +21,8 @@ function tweetHandler() {
   //tweet(msg);
 }
 
+
+// Generate the Quote inside of the Card Option
 $(document).ready(function() {
   $("#getMessage").on("click", function(){
     var randomquote = Math.floor(Math.random()*(quote.length-1));
