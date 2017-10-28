@@ -116,6 +116,5 @@ text-align: center;
 .image:hover{
   border-radius: 50%;
   box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24),0 17px 17px 0 rgba(0,0,0,0.19);
-  /*background-color:	#1c86ee;*/
   color:white;
 }
