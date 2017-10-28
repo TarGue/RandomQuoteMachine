@@ -1,7 +1,4 @@
-# hello-world
+# Random Quote Machine 
 
-Hi my name is Tar, 
-I like web-developement, programming and science. :)
-
-Best regards,
-TarGue
+This Website allows the user to click on a button and generate randomly quotes. The user is also able to share the Quote via Twitter. 
+ 
